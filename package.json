@@ -1,0 +1,32 @@
+{
+  "name": "@snowpack/app-template-minimal",
+  "description": "A preconfigured minimal template for Snowpack",
+  "version": "2.1.1",
+  "license": "MIT",
+  "homepage": "https://github.com/snowpackjs/snowpack/tree/main/create-snowpack-app/app-template-preact#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snowpackjs/snowpack.git",
+    "directory": "create-snowpack-app/app-template-minimal"
+  },
+  "keywords": [
+    "csa-template"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev  --mode development",
+    "test": "snowpack dev  --mode test",
+    "build": "snowpack build --mode production"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-react-refresh": "^2.5.0",
+    "snowpack": "^3.3.7"
+  },
+  "dependencies": {
+    "@snowpack/plugin-dotenv": "^2.2.0",
+    "@snowpack/plugin-sass": "^1.4.0",
+    "@snowpack/plugin-webpack": "^3.0.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
